@@ -3,3 +3,19 @@
 body{
     font-family: 'Archivo', sans-serif;
 }
+
+p{
+    color: gray;
+}
+
+.checklist{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.partners{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
