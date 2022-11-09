@@ -89,6 +89,16 @@ a{
 
 .nav-container-right{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+}
+
+.welcome-container{
+    background-color: rgb(241, 238, 233);
+    padding: 3rem;
+    margin: 2rem 0;
+}
+
+.welcome-container p{
+    text-decoration: underline;
 }
