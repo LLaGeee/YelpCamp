@@ -155,6 +155,13 @@ a{
     margin: 5rem 0;
 }
 
+.camp-content{
+    display: grid;
+    grid-template-columns: 25% 50%;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
 .camp-map{
     border: solid;
     border-radius: 5px;
@@ -167,6 +174,10 @@ a{
     border-radius: 5px;
     border-color: rgb(205, 204, 204);
     padding: 3rem;
+}
+
+.camp-img img{
+    width: 100%;
 }
 
 .testimonials{
