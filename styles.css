@@ -154,3 +154,24 @@ a{
 .bottom-container{
     margin: 5rem 0;
 }
+
+.camp-map{
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(205, 204, 204);
+    padding: 3rem;
+}
+
+.camp-img{
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(205, 204, 204);
+    padding: 3rem;
+}
+
+.testimonials{
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(205, 204, 204);
+    padding: 3rem;
+}
