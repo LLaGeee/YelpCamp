@@ -99,6 +99,40 @@ a{
     margin: 2rem 0;
 }
 
-.welcome-container p{
+.welcome-container a{
     text-decoration: underline;
+    color: gray;
+}
+
+.camps-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.camp-btn{
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.camp-btn:hover{
+    cursor: pointer;
+}
+
+.camp{
+    border: solid;
+    border-color: rgb(205, 204, 204);
+    padding: 1rem;
+    border-radius: 5px;
+    width:min-content;
+}
+
+.camp img{
+    border-radius: 5px;
 }
