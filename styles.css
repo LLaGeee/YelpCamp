@@ -167,6 +167,7 @@ a{
     border-radius: 5px;
     border-color: rgb(205, 204, 204);
     padding: 3rem;
+    height: fit-content;
 }
 
 .camp-img{
@@ -178,6 +179,12 @@ a{
 
 .camp-img img{
     width: 100%;
+}
+
+.camp-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .testimonials{
